@@ -1,0 +1,46 @@
+.flag_germany{margin-top: 30px;
+    width:400px ;
+    height: 300px;
+    border: 1px solid rgb(124, 68, 68);
+    background:  linear-gradient(180deg , black 0% 35% , red  35% 70% ,  yellow  70% 100%);
+}
+.flag_indonesia{margin-top: 30px;
+    width:400px ;
+    height: 300px;
+    border: 1px solid rgb(124, 68, 68);
+    background:  linear-gradient(180deg , red  0% 50% , white  50% 100%);
+}
+.flag_france{ margin-top: 30px;
+    width:400px ;
+    height: 300px;
+    border: 1px solid rgb(124, 68, 68);
+    background: linear-gradient(90deg , blue 0% 35% , white 35% 70% , red 70% 100%);
+}
+.flag_italy{
+    margin-top: 30px;
+    width:400px ;
+    height: 300px;
+    border: 1px solid rgb(124, 68, 68);
+    background: linear-gradient(90deg ,green 0% 35% , white 35% 70% , red 70% 100%);
+}
+
+.flag_austria{ 
+    margin-top: 30px;
+    width:400px ;
+    height: 300px;
+    border: 1px solid rgb(124, 68, 68);
+    background: linear-gradient(180deg , red 0% 35% , white 35% 70% , red 70% 100%);
+
+}
+.flag_estonia{
+    margin-top: 30px;
+    width:400px ;
+    height: 300px;
+    border: 1px solid rgb(124, 68, 68);
+    background: linear-gradient(180deg , blue 0% 35% , black 35% 70% , white 70% 100%);
+}
+.flag_first, .flags_second{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}

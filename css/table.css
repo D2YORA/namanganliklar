@@ -1,0 +1,37 @@
+.fixed_table{ width: 750px ;
+    background: linear-gradient(220deg , blue, pink);
+}
+
+.table{ width: 400px; height: 400px ;
+ 
+}
+.table_title{
+    margin-top: auto;;
+}
+
+.table_box{ background-color: rgb(90, 189, 156);
+    border-collapse: collapse;
+    margin: 25px 0;
+margin-left:  100px;   
+ font-size: 0.9em;
+    width: 500px;
+   
+
+}
+.table_box thead tr{
+    background-color: rgb(143, 245, 211) ;
+    color: grey;
+    text-align: left;
+    font-weight: bold;
+}
+.table_box th,
+.table_box td{
+    padding: 12px 15px;
+}
+.table_box tbody tr{
+    border-bottom: 1px solid rgb(175, 182, 175);
+}
+
+.table_box tbody tr:last-of-type{
+    border-bottom: 2px solid  rgb(180, 177, 177);
+}

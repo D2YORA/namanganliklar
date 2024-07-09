@@ -1,0 +1,215 @@
+
+
+
+.form{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form_title{
+    /* Напишите нам */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+
+}
+.form_main{
+    margin-top: 20px;
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+}
+input{
+ /* Rectangle 54 */
+padding: 14px 14px;
+box-sizing: border-box;
+
+width: 600px;
+height: 60px;
+
+background: #F1F1F1;
+opacity: 0.3;
+border: 2px solid  #285db3;
+border-radius: 5px;
+/* Имя */
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+
+color: #887070;
+
+}
+textarea{
+    /* Rectangle 58 */
+padding: 14px 14px;
+box-sizing: border-box;
+
+width: 600px;
+height: 307px;
+
+background: #F1F1F1;
+opacity: 0.3;
+border: 2px solid #285db3;
+border-radius: 5px;
+resize: none;
+/* Текст */
+
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #888888;
+
+}
+.form_file{
+    /* Rectangle 59 */
+
+box-sizing: border-box;
+
+width: 221px;
+height: 50px;
+background: #FBFBFB;
+opacity: 0.3;
+border: 2px solid #285193;
+border-radius: 5px;
+
+
+}
+.form_submit{
+    /* Rectangle 61 */
+
+box-sizing: border-box;
+
+width: 221px;
+height: 50px;
+
+background: #295093;
+border: 2px solid rgba(40, 81, 147, 0.54);
+border-radius: 5px;
+opacity: 1;
+/* Отправить */
+
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+}
+.form_span{
+font-family: 'Song Myung';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.form_box{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.form_right{
+    margin-bottom:400px ;
+}
+
+.form_card{
+    /* Rectangle 62 */
+
+box-sizing: border-box;
+
+width: 510px;
+height: 280px;
+
+background: #FFFFFF;
+border: 2px solid #BCC3CD;
+border-radius: 5px;
+
+/* Rectangle 64 */
+
+
+background: rgba(41, 80, 145, 0.16);
+box-shadow: 0px 8px 9px rgba(57, 57, 57, 0.25);
+border-radius: 5px;
+padding: 30px;
+
+}
+.form_card_title{
+    /* NAMANGANLIKLAR24 */
+
+text-align: end;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+
+color: #295091;
+
+}
+.form_card_box{
+    display: flex;
+    /* align-items: center;  */
+    justify-content: space-between;
+}
+.form_card_left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px ;
+}
+.form_text{
+    /* Электронная почта */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #888888;
+
+}
+.form_card_right{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_card_btn{
+    float: right;
+    margin-left: 90px;
+    /* margin-bottom: 50px; */
+}
+.form_card_store{
+display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.form_card_media{
+    display: flex;
+    justify-content: end;
+    gap: 15px ;
+}

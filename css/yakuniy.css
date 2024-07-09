@@ -1,0 +1,519 @@
+/* * {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  } */
+.container {
+  margin: 150px auto;
+  background-color: bisque;
+  width: 1300px;
+  height: 4000px;
+}
+
+.header {
+  position: flex;
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  height: 56px;
+  background-color: whitesmoke;
+}
+.pixer {
+  /* pixer-logo */
+  padding-left: 100px;
+  width: 58.11px;
+  height: 20px;
+}
+.homepage {
+  /* sitenav-list */
+  /* Auto layout */
+  margin-right: 100px;
+  display: flex;
+  gap: 23px;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content:center ; */
+  padding: 0px;
+
+  width: 660px;
+  height: 69;
+}
+.homepage_btn {
+  /* phone-number */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  width: 160px;
+  height: 40px;
+  right: 100px;
+  top: 8px;
+
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+  border: none;
+}
+.business {
+  display: flex;
+  gap: 20px;
+  /* promo */
+  background-color: azure;
+  width: 1300px;
+  height: 418px;
+}
+.business_left {
+  padding-top: 120px;
+  margin-left: 100px;
+}
+.business_title {
+  /* promo-heading */
+  width: 420px;
+  height: 78px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  /* or 39px */
+  color: #000000;
+}
+
+.business_text {
+  /* promo-text */
+  width: 405px;
+  height: 74px;
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #000000;
+}
+
+.business_btn {
+  /* button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  color: whitesmoke;
+
+  width: 232px;
+  height: 40px;
+
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+  border: none;
+}
+.business_right {
+  padding-top: 80px;
+  margin-left: 175px;
+}
+.services {
+  /* services */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 0px;
+  gap: 16px;
+
+  width: 1300px;
+  height: 879px;
+  left: 0px;
+  top: 474px;
+
+  background: #f3efef;
+}
+.services_title {
+  /* section-title */
+  width: 117px;
+  height: 31px;
+
+  /* section-title */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+  text-align: center;
+
+  color: #000000;
+}
+.services_text {
+  /* promo-text */
+
+  width: 719px;
+  height: 48px;
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+
+  color: #000000;
+}
+.services_box {
+  margin-top: 25px;
+  margin-left: 100px;
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+.services_cards_title {
+  margin: auto;
+  /* service-name */
+
+  width: 146px;
+  height: 26px;
+
+  /* subsection-title */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+  text-align: center;
+
+  color: #000000;
+}
+.services_cards_title:hover { padding:  ipsum dolor sit amet, consectetur adipiscing elit.
+   Sed pretium orci nec neque finibus mattis
+
+}
+
+
+.services_cards_text {
+  margin: auto;
+  /* service-short-info */
+
+  width: 95px;
+  height: 24px;
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+
+  color: #000000;
+}
+.service_cards {
+  padding: 10px 1px;
+  text-align: center;
+  background-color: aliceblue;
+  width: 320px;
+}
+.service_cards4 {
+  margin-left: 120px;
+  padding: 10px 1px;
+  text-align: center;
+  background-color: aliceblue;
+  width: 320px;
+}
+.servisec_cards_btn {
+  margin-top: 30px;
+  /* services-footer */
+  display: flex;
+  gap: 5px;
+  width: 378px;
+  height: 64px;
+}
+.btn {
+  margin-top: 5px;
+  /* button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  border: none;
+
+  width: 167px;
+  height: 40px;
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+}
+.btn_text {
+  /* Xizmatlar sahifasiga o’tish */
+
+  width: 192px;
+  height: 24px;
+
+  /* link */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  /* blue */
+  color: #00bafc;
+}
+.servisec_work {
+  /* how-we-work */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 0px;
+
+  width: 1300px;
+  height: 1675.81px;
+  left: 0px;
+  top: 1353px;
+
+  background: #e4e1e1;
+}
+.work_title {
+  /* section-title */
+
+  width: 262px;
+  height: 31px;
+
+  /* section-title */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+  text-align: center;
+
+  color: #000000;
+}
+.work_text {
+  /* section-text */
+
+  width: 719px;
+  height: 48px;
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+
+  color: #000000;
+}
+.work_box {
+  margin-top: 30px;
+}
+.work_card1 {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.work_card2 {
+  margin-top: 40px;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 80px;
+}
+.work_card_title {
+  /* steo-name */
+
+  width: 277px;
+  height: 26px;
+
+  /* subsection-title */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+  text-align: center;
+
+  color: #000000;
+}
+.work_card_text {
+  /* step-description */
+
+  width: 493px;
+  height: 48px;
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #000000;
+}
+.work_btn {
+  margin-top: 30px;
+  /* how-we-work-footer */
+
+  width: 344px;
+  height: 64px;
+  /* Buyurtma berish */
+
+  width: 135px;
+  height: 24px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+
+  opacity: 0.48;
+  /* button */
+
+  /* Auto layout */
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  border: none;
+
+  width: 167px;
+  height: 40px;
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+}
+.order {
+  /* order-form */
+
+  width: 1300px;
+  height: 553px;
+
+  /* blue */
+  background: #00bafc;
+}
+.order_title {
+  /* section-title */
+  margin: auto;
+  width: 203px;
+  height: 31px;
+  padding-top: 56px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+  align-items: center;
+  color: #ffffff;
+}
+.order_text {
+  /* section-text */
+  margin-left: 290px;
+  width: 719px;
+  height: 48px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  text-align: center;
+  color: #ffffff;
+}
+.order_box {
+  margin: auto;
+  background-color: rgb(248, 247, 244);
+  /* form */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0px;
+
+  width: 348px;
+  height: 320px;
+}
+input {
+  /* input */
+  margin: auto;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px;
+
+  width: 300px;
+  height: 56px;
+
+  /* light-grey */
+  background: #e4e1e1;
+  border-radius: 5px;
+  border: none;
+}
+.order_btn {
+  /* button */
+
+  /* Auto layout */
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+
+  width: 167px;
+  height: 40px;
+
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+  border: none;
+  /* Buyurtma berish */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+.pages_sayti {
+}
